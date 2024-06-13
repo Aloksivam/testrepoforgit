@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab Instructions: Styling a page
 
 In this exercise you will you will practice applying CSS rules to HTML elements.<br><br>
@@ -57,3 +58,7 @@ You can also see your score in your Programming Assignment "My Submission" tab.
 
 * If you get stuck, apply the CSS rules one at a time and verify their behaviour is what you expect.
 * Review the lessons *Selecting and Styling*, *Text and color in CSS*, *Different types of selectors*, and *Box Model Introducction*.
+=======
+# testrepoforgit
+by me
+>>>>>>> 12ca6f0c08465628601ddd5668bd4e6a5cbedaab
