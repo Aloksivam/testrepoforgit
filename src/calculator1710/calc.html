@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <style>
+        body {
+            /* display: grid; */
+            /* height: 100vh; */
+            /* place-items: center; */
+            background-color: black;
+        }
+
+        .container {
+            background-color: rgb(30, 29, 29);
+            margin-top: 100px;
+            width: 300px;
+            height: 400px;
+            /* display: flex; */
+            border: 3px solid black;
+            border-radius: 17px;
+            /* position: absolute; */
+            margin-left: 38%;
+            /* background-color: white */
+        }
+
+        .calbody {
+            display: flex;
+            /* padding: 20px; */
+        }
+
+
+        /* .btn {
+            height: 23px;
+            width: 44px;
+            border: 3px solid blueviolet;
+            border-radius: 27%;
+            background-color: lightblue;
+        } */
+
+        .rs {
+            margin-top: 20px;
+            float: right;
+            width: 48%;
+            height: 56%;
+        }
+
+        .input {
+            background-color: black;
+            border: 1px solid rgb(0, 197, 211);
+            color: azure;
+            border-radius: 6px;
+            width: 70%;
+            height: 50%;
+            box-sizing: border-box;
+            font-size: 20px;
+            margin: 20px;
+        }
+
+        .ls {
+            margin-top: 20px;
+            width: 50%;
+        }
+
+        .box {
+            box-sizing: border-box;
+            align-items: center;
+            text-align: center;
+            background-color: black;
+            border: 1px solid rgb(0, 197, 211);
+            color: azure;
+            border-radius: 6px;
+            width: 70%;
+            height: 50px;
+            box-sizing: border-box;
+            font-size: 20px;
+            margin: 20px;
+            margin-bottom: 40px;
+        }
+
+        .operators1 {
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .opt {
+            /* box-sizing: border-box; */
+            text-align: center;
+            align-items: center;
+            background-color: black;
+            color: azure;
+            border-radius: 6px;
+            width: 25%;
+            height: 35px;
+            box-sizing: border-box;
+            font-size: 20px;
+            margin-left: 5%;
+            margin-bottom: 10px;
+            border: 1px solid red;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <form action=""> -->
+        <!-- <label for="Num1">Num1</label>
+            <input type="text" id="Num1">
+            <br>
+            <label for="Num2">Num2</label>
+            <input type="text" id="Num2">
+            <br>
+            <label for="Result">Result</label>
+            <input type="text" id="Result">
+            <br>
+            <input type="button" name="Add" id="Addition" value="Add">
+            <input type="button" name="SUB" id="SUB" value="SUB">
+            <input type="button" name="MUL" id="MUL" value="MUL"> -->
+
+        <!-- </form> -->
+        <div class="calbody">
+            <div class="ls">
+
+                <div class="box">
+                    <p>Num1</p>
+                </div>
+                <div class="box" style="margin-bottom: 21px;">Num2</div>
+                <button class="box">Result</button>
+            </div>
+            <div class="rs">
+                <input type="text" class="input">
+                <input type="text" class="input">
+                <input type="text" class="input">
+            </div>
+        </div>
+        <div class="operators1">
+            <input type="button" name="Add" id="Add" value="Add" class="opt">
+            <input type="button" name="Sub" id="Sub" value="Sub" class="opt">
+            <input type="button" name="Mul" id="Mul" value="Mul" class="opt">
+        </div>
+        <div class="operators1">
+            <button style="margin-left:80px" class="opt">Div</button>
+            <button class="opt">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
